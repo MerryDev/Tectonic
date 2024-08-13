@@ -9,3 +9,6 @@
 </div>
 
 ___
+
+![Build](https://img.shields.io/github/actions/workflow/status/MerryDev/Tectonic/gradle.yml?style=for-the-badge)
+![Release](https://img.shields.io/github/v/release/MerryDev/Tectonic?include_prereleases&style=for-the-badge)
