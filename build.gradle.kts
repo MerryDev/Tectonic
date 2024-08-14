@@ -40,9 +40,16 @@ allprojects {
     }
 
     dependencies {
+        // Dependencies that are already provided by another source
         compileOnly("org.jetbrains:annotations:24.1.0")
 
+        // Dependencies that are not provided by the server
         implementation("org.apache.commons:commons-lang3:3.14.0")
+
+
+        // Dependencies required for testing
+        testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+        testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     }
 
     tasks {
