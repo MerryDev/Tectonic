@@ -10,5 +10,4 @@ dependencyResolutionManagement {
 
 include("core")
 include("commands")
-
-
+include("messaging")
