@@ -17,7 +17,7 @@ ___
 <div id="toc">
   <ul style="list-style: none;">
       <summary>
-          <h1>Features</h2>
+          <h1>Features</h1>
       </summary>
       <p>Die nachfolgenden Funktionen sind bereits implementiert und getestet. Sollte dennoch Fehler auftreten, melde diese bitte <a href="https://github.com/MerryDev/Tectonic/issues">hier</a>.</p>
   </ul>
