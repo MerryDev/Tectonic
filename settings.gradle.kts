@@ -1,2 +1,2 @@
 rootProject.name = "tectonic"
-include("api")
+include("core")
