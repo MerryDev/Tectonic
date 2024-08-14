@@ -1,4 +1,4 @@
-package eu.minecountry.tectonic.logger;
+package eu.minecountry.tectonic.core.logger;
 
 public sealed interface DefaultLogger extends Logger permits TectonicFileLogger, TectonicLogger {
 
@@ -6,8 +6,8 @@ public sealed interface DefaultLogger extends Logger permits TectonicFileLogger,
         return new LogFilter();
     }
 
-    static LofFormatter formatter() {
-        return new LofFormatter();
+    static LogFormatter formatter() {
+        return new LogFormatter();
     }
 
     sealed interface Builder extends Logger.Builder<Builder> permits TectonicFileLoggerBuilder, TectonicLoggerBuilder {

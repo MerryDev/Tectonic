@@ -1,4 +1,4 @@
-package eu.minecountry.tectonic.logger;
+package eu.minecountry.tectonic.core.logger;
 
 import java.util.Set;
 import java.util.logging.Filter;

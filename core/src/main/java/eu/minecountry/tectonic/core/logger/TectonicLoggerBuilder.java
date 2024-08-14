@@ -1,4 +1,4 @@
-package eu.minecountry.tectonic.logger;
+package eu.minecountry.tectonic.core.logger;
 
 import java.nio.file.Path;
 

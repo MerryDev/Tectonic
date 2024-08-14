@@ -1,6 +1,6 @@
-package eu.minecountry.tectonic.commands.util;
+package eu.minecountry.tectonic.core.commands.util;
 
-import eu.minecountry.tectonic.util.Parser;
+import eu.minecountry.tectonic.core.util.Parser;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

@@ -1,4 +1,4 @@
-package eu.minecountry.tectonic.util;
+package eu.minecountry.tectonic.core.util;
 
 import java.util.Optional;
 

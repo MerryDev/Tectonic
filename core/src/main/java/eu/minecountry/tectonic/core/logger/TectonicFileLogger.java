@@ -1,7 +1,7 @@
-package eu.minecountry.tectonic.logger;
+package eu.minecountry.tectonic.core.logger;
 
 
-import eu.minecountry.tectonic.util.StringUtil;
+import eu.minecountry.tectonic.core.util.StringUtil;
 
 import java.io.File;
 import java.io.IOException;
