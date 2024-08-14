@@ -5,5 +5,8 @@ dependencies {
     implementation("net.kyori:adventure-text-serializer-plain:4.17.0")
     implementation("net.kyori:adventure-platform-bukkit:4.3.4")
 
-    api(project(":core"))
+    api(project(":core")) {
+        exclude("io.papermc")
+    }
+    compileOnly(libs.paper)
 }
